@@ -166,7 +166,7 @@ int Wagon::wyswietl_bilety()
 			flaga = 0;
 			if (x.second == 1)
 				std::cout << "Posiadasz juz bilet na pociag.";
-			else if ((x.second > 2) and (x.second < 5))
+			else if ((x.second >= 2) and (x.second < 5))
 				std::cout << "Posiadasz juz " << x.second << " bilety na pociag.";
 			else if (x.second > 4)
 				std::cout << "Posiadasz juz " << x.second << " biletow na pociag.";
